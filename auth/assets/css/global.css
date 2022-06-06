@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url(../../../global/font/segoe-ui-4-cufonfonts/Segoe\ UI.ttf)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --card-bg: #f7f7f7;
+    --form: #f2f2f2;
+}
+
+body {
+    background: #f1f0f0 !important;
+    background-size: cover
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-qlox {
+    background-color: var(--card-bg) !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: var(--typography);
+    border: 0 !important;
+    border-radius: 3px !important;
+}
+
+.auth-title {
+    font-size: 24px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    line-height: 28px;
+    color: #1b1b1b;
+    margin-bottom: 20px !important;
+}
+
+.dont-have a {
+    text-decoration: none;
+}
+
+.dont-have {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}

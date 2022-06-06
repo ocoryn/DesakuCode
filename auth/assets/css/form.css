@@ -1,0 +1,17 @@
+:root {
+    --primary: #aaffe4;
+    --form: #f0efef;
+}
+
+.form-control:focus,
+.form-control:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: var(--primary) solid 0.2rem !important;
+}
+
+.form-control {
+    background: var(--form) !important;
+    color: var(--form) !important;
+    border: var(--form) solid 0.2rem !important;
+}

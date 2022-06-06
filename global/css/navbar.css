@@ -1,0 +1,26 @@
+.navbar {
+    background-color: var(--navbar-bg);
+    padding: 30px 10px !important;
+    padding-top: 50px !important;
+    margin: 0 0.9rem 0 0.9rem;
+    box-shadow: 0 1rem 0 var(--background) inset;
+    border-radius: 8px;
+}
+
+.navbar-brand {
+    font-family: 'Panton', sans-serif;
+    font-size: 30px !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+#navbarNav>ul>li:nth-child(n)>a {
+    color: var(--typography);
+}
