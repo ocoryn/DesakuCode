@@ -61,49 +61,50 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                 <div class="card card-gexio">
                   <img src="https://web.dev/images/courses/design/card.svg" class="card-img-top rounded" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title title-kartu">Learn Responsive Design!</h5>
+                    <h5 class="card-title title-kartu">Basic HTML!</h5>
                     <h6 class="desc-materi">
-                      Let's explore all aspects of responsive design, learning how to make sites that look great and work well for everyone.
+                    <span class="badge text-bg-success">100%</span>
+                     <s> Rp 15.000 IDR</s>
                     </h6>
-                    <hr>
                     <p class="price">FREE</p>
                     <div class="d-grid gap-2 mt-3">
-                      <a href="/courses/responsive-design" class="btn btn-dark" type="button">Details</a>
+                      <a href="/courses/basic/html" class="btn btn-dark" type="button">Details</a>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card card-gexio">
-                  <img src="https://web.dev/images/courses/forms/card.svg" class="card-img-top rounded" alt="...">
+                  <img src="https://web.dev/images/courses/design/card.svg" class="card-img-top rounded" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title title-kartu">Learn Forms!</h5>
+                    <h5 class="card-title title-kartu">Basic CSS!</h5>
                     <h6 class="desc-materi">
-                    A course about HTML forms to help you improve your web developer expertise.
-                  </h6>
-                    <hr>
+                    <span class="badge text-bg-success">100%</span>
+                     <s> Rp 15.000 IDR</s>
+                    </h6>
                     <p class="price">FREE</p>
                     <div class="d-grid gap-2 mt-3">
-                      <a href="/courses/forms" class="btn btn-dark disabled">Details</a>
+                      <a href="/courses/basic/css" class="btn btn-dark" type="button">Details</a>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card card-gexio">
-                  <img src="https://web.dev/images/courses/css/card.svg" class="card-img-top rounded" alt="...">
+                  <img src="https://web.dev/images/courses/design/card.svg" class="card-img-top rounded" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title title-kartu">Learn CSS!</h5>
+                    <h5 class="card-title title-kartu">Basic JS!</h5>
                     <h6 class="desc-materi">
-                    Let’s gleefully breakdown complex aspects of CSS into digestible episodes covering everything from accessibility to z-index.
+                    <span class="badge text-bg-success">100%</span>
+                     <s> Rp 15.000 IDR</s>
                     </h6>
-                    <hr>
                     <p class="price">FREE</p>
                     <div class="d-grid gap-2 mt-3">
-                      <a href="/courses/css" class="btn btn-dark disabled">Details</a>
+                      <a href="/courses/basic/js" class="btn btn-dark" type="button">Details</a>
                     </div>
                   </div>
                 </div>
+              </div>
               </div>
             </div>
           </div>
