@@ -1,0 +1,14 @@
+.kelas-title {
+    font-family: 'Panton', sans-serif;
+}
+
+.kelas-isi {
+    opacity: 70%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+}
+
+.kelas-isi ul li {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+}

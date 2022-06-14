@@ -59,10 +59,14 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
             <div class="row row-cols-1 row-cols-md-3 g-4 gatauk">
               <div class="col">
                 <div class="card card-gexio">
-                  <img src="https://web.dev/images/courses/design/card.svg" class="card-img-top rounded" alt="...">
+                  <img src="/global/img/courses banner/html.png" class="card-img-top rounded" alt="...">
                   <div class="card-body">
                     <h5 class="card-title title-kartu">Basic HTML!</h5>
                     <h6 class="desc-materi">
+                      <span>
+                        <p>In this class, we will learn how to create a website from scratch using HTML. With HT<span id="dots">... <button onclick="myFunction()" id="myBtn">Read more</button></span><span id="more">ML, we can create the structure and framework of a website consisting of several elements. HTML also functions as a content viewer on our website. <button onclick="myFunction()" id="myBtn">Read less</button></p>
+                      </span>
+                    </span>
                     <span class="badge text-bg-success">100%</span>
                      <s> Rp 15.000 IDR</s>
                     </h6>
@@ -75,10 +79,13 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
               </div>
               <div class="col">
                 <div class="card card-gexio">
-                  <img src="https://web.dev/images/courses/design/card.svg" class="card-img-top rounded" alt="...">
+                  <img src="/global/img/courses banner/css.png" class="card-img-top rounded" alt="...">
                   <div class="card-body">
                     <h5 class="card-title title-kartu">Basic CSS!</h5>
                     <h6 class="desc-materi">
+                    <span>
+                        <p>In this class we will learn how to style every element on a website using CSS<span id="dots2">... <button onclick="myFunction2()" id="myBtn2">Read more</button></span><span id="more2">, such as giving color to elements, positioning elements, providing background images, making the display responsive, and so on. With CSS, our website will become more beautiful, attractive, and the content in it will be easier for users to understand. <button onclick="myFunction2()" id="myBtn2">Read less</button></p>
+                      </span>
                     <span class="badge text-bg-success">100%</span>
                      <s> Rp 15.000 IDR</s>
                     </h6>
@@ -91,10 +98,13 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
               </div>
               <div class="col">
                 <div class="card card-gexio">
-                  <img src="https://web.dev/images/courses/design/card.svg" class="card-img-top rounded" alt="...">
+                  <img src="/global/img/courses banner/js.png" class="card-img-top rounded" alt="...">
                   <div class="card-body">
                     <h5 class="card-title title-kartu">Basic JS!</h5>
                     <h6 class="desc-materi">
+                    <span>
+                        <p>In this class we will learn how to make a website more interactive by adding <span id="dots3">... <button onclick="myFunction3()" id="myBtn3">Read more</button></span><span id="more3">some programs written using JavaScript. With JavaScript, we can create a website to process data, display data, make elements on the website more communicative, and so on, so that a website can 'interact' with users. <button onclick="myFunction3()" id="myBtn3">Read less</button></p>
+                      </span>
                     <span class="badge text-bg-success">100%</span>
                      <s> Rp 15.000 IDR</s>
                     </h6>
@@ -110,11 +120,110 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
           </div>
         </section>
 </body>
+
+<style>
+  #more {
+    display: none;
+}
+
+.card-gexio {
+  transition: all .2s ease-in-out;
+}
+
+.card-gexio:hover {
+    transform: scale(1.1) !important;
+}
+
+#myBtn {
+  opacity: 60%;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    font-size: 15px;
+}
+
+  #more2 {
+    display: none;
+}
+
+#myBtn2 {
+  opacity: 60%;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    font-size: 15px;
+}
+  #more3 {
+    display: none;
+}
+
+#myBtn3 {
+  opacity: 60%;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    font-size: 15px;
+}
+</style>
+
 <script>
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
+</script>
+
+<script>
+  function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+<script>
+
+function myFunction2() {
+var dots = document.getElementById("dots2");
+var moreText = document.getElementById("more2");
+var btnText = document.getElementById("myBtn2");
+
+if (dots.style.display === "none") {
+  dots.style.display = "inline";
+  btnText.innerHTML = "Read more";
+  moreText.style.display = "none";
+} else {
+  dots.style.display = "none";
+  btnText.innerHTML = "Read less";
+  moreText.style.display = "inline";
+}}
+</script>
+<script>
+
+function myFunction3() {
+var dots = document.getElementById("dots3");
+var moreText = document.getElementById("more3");
+var btnText = document.getElementById("myBtn3");
+
+if (dots.style.display === "none") {
+  dots.style.display = "inline";
+  btnText.innerHTML = "Read more";
+  moreText.style.display = "none";
+} else {
+  dots.style.display = "none";
+  btnText.innerHTML = "Read less";
+  moreText.style.display = "inline";
+}}
 </script>
 </html>
 
